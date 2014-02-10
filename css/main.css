@@ -30,6 +30,41 @@ float: left;
   ]
 }
 
+/* How a complete view of mobile approach in cellphone at fisrt should look like*/
+
+/* default styles of css sheets for applying media query */
+.related -products 
+float:left;
+width:50%;
+]
+
+Display medium display seeting for mobile phone
+@media screen and (min-width: 28.75em) {
+  .related-products li {
+    width: 33.3333333%;
+  }
+}
+display medium display setting for smaller tablets 
+@media screen and (min-width: 28.75em) {
+  .related-products li {
+    width: 33.3333333%;
+  }
+}
+display medium display setting for smaller cellphone view settings
+@media screen and (min-width: 28.75em) {
+  .related-products li {
+    width: 33.3333333%;
+  }
+}
+
+/* for display setting for large displayes like medium tablets and up */
+@media screen and min-width: 40.5em) {
+  .related-products li {
+    width: 16.6666667%;
+  }
+}
+
+
 
 
 
