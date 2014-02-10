@@ -15,6 +15,35 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+.related-products li {
+  float: left;
+  width: 50%;
+}
+
+/*Display 3 per row for medium displays for mobile phones*/
+@media screen and (min-width: 28.75em) {
+  .related-products li {
+    width: 33.3333333%;
+  }
+}
+
+
+/*Display 3 per row for medium displays for tablets*/
+@media screen and (min-width: 28.75em) {
+  .related-products li {
+    width: 33.3333333%;
+  }
+}
+
+
+/*Display 3 per row for medium displays for smaller mobile phones*/
+@media screen and (min-width: 28.75em) {
+  .related-products li {
+    width: 33.3333333%;
+  }
+}
+
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
