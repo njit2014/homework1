@@ -21,6 +21,17 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+/*
+ * It is the Css selection for mobile first approcach large screen styles first- Avoid*/
+@media screen and (min-width:40.5em){
+.product-img {
+width: 50%;
+float: left;
+  ]
+}
+
+
+
 
 ::-moz-selection {
     background: #b3d4fc;
